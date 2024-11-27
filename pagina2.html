@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 2</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="pagina2">
+    <main>
+        <nav>
+            <!-- Botones para redirigir a otras páginas -->
+            <a href="pagina3.html" class="nav-button">Página 3</a>
+            <a href="pagina4.html" class="nav-button">Página 4</a>
+        </nav>
+        <!-- Sección para enviar correo -->
+        <section id="correo">
+            <h2>Enviar Correo</h2>
+            <form id="correoForm">
+                <label for="email">Correo:</label>
+                <input type="email" id="email" placeholder="ejemplo@correo.com" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" placeholder="Escribe tu mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="correoResponse"></p>
+        </section>
+
+        <!-- Sección para mostrar imágenes -->
+        <section id="imagenes">
+            <h2>Ver Imágenes</h2>
+            <button id="getPhotoBtn">Obtener Nueva Foto</button>
+            <div class="photo-container">
+                <img id="randomPhoto" alt="Foto aleatoria de Unsplash">
+                <p id="photoDescription"></p>
+            </div>
+        </section>
+
+        <!-- Sección API opcional (clima) -->
+        <section id="clima">
+            <h2>Consultar Clima</h2>
+            <input type="text" id="locationInput" placeholder="Ingresa una ubicación">
+            <button id="fetchWeatherBtn">Obtener Clima</button>
+            <div id="weatherResult"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

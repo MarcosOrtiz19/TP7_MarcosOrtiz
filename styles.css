@@ -1,0 +1,302 @@
+/* Index */
+body.index {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+body.index .login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body.index h2 {
+    margin-bottom: 20px;
+}
+
+body.index label,
+body.index input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+body.index button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body.index button:hover {
+    background-color: #45a049;
+}
+/* Pagina 2 */
+body.pagina2 {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: auto;
+    color: #333;
+    nav-index: auto;
+    
+}
+header.pagina2 {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+main.pagina2 {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.pagina2 section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.pagina2 label  {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.pagina2 input, .pagina2 textarea, .pagina2 button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pagina2 button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.pagina2 button:hover {
+    background-color: #0056b3;
+}
+
+.pagina2 section .photo-container {
+    margin-top: 20px;
+}
+
+.pagina2 img {
+    max-width: 30%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.pagina2 p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Pagina 3*/
+
+/* styles.css */
+body.pagina3 {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: auto;
+    color: #333;
+    nav-index: auto;
+}
+header.pagina3 {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+main.pagina3 {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.pagina3 .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pagina3 h1  {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pagina3 label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.pagina3 input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pagina3 textarea {
+    resize: none;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagina3 button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.pagina3 button:hover {
+    background-color: #0056b3;
+}
+
+#responseMessage {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Pagina 4*/
+body.pagina4 {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: auto;
+    color: #333;
+    nav-index: auto;
+}
+header.pagina4 {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main.pagina4 {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.pagina4 .container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.pagina4 h1 {
+    margin-bottom: 20px;
+}
+
+.pagina4 table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.pagina4 th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.pagina4 th {
+    background-color: #007BFF;
+    color: white;
+}
+
+.pagina4 .animated-header {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        background-color: #007BFF;
+    }
+    50% {
+        background-color: #0056b3;
+    }
+}
+
+.pagina4 button {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagina4 button:hover {
+    background: #0056b3;
+}
+
+/* General */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nav-button {
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 15px 15px;
+    background: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+
+.nav-button:hover {
+    background: #0056b3;
+}

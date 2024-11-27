@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 3</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="pagina3">
+    <main>
+        <nav>
+            <!-- Botones para redirigir a otras páginas -->
+            <a href="pagina2.html" class="nav-button">Página 2</a>
+            <a href="pagina4.html" class="nav-button">Página 4</a>
+        </nav>
+        <div class="container">
+            <h1>Formulario de Datos de Empleado</h1>
+            <form id="employeeForm">
+                <!-- Campos del formulario -->
+                <label for="employeeName">Nombre del Empleado:</label>
+                <input type="text" id="employeeName" name="employeeName" required>
+
+                <label for="salary">Sueldo:</label>
+                <input type="number" id="salary" name="salary" required>
+
+                <label for="observation">Observaciones:</label>
+                <textarea id="observation" name="observation" rows="4" required></textarea>
+
+                <label for="senderName">Nombre del Remitente:</label>
+                <input type="text" id="senderName" name="senderName" required>
+
+                <div class="form-actions">
+                    <button type="submit">Enviar</button>
+                    <button type="button" id="clearForm">Limpiar</button>
+                </div>
+            </form>
+            <p id="responseMessage"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
